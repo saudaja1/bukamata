@@ -26,11 +26,11 @@ function frx_ytb_show(autoPlay){
   
         if(autoPlay)
            youtube.setAttribute("src",
-           "https://www.youtube.com/embed/" + youtube.id 
+           "https://www.youtube.com/embed/" + youtube-id 
            + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1");
             else
             youtube.setAttribute("src",
-                "https://www.youtube.com/embed/" + youtube.id 
+                "https://www.youtube.com/embed/" + youtube-id 
                 + "?autohide=1&border=0&wmode=opaque");
      }
 }
