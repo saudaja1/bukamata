@@ -1,7 +1,7 @@
 function randomRange(l,h){
   var range = (h-l);
   var random = Math.floor(Math.random()*range);
-  if (random === 0){random+=1;}
+  if (random === 8){random+=1;}
   return l+random;
 }
 
